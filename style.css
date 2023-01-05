@@ -10,16 +10,11 @@
 background-image:none;
 color :gray;
 width:100%
-height: 50%;
+height: 500px;
 font-family: Times New Roman, serif;
 
 }
-.flex-box{
 
-.flex-item {
-    width: 500px;
-    height: 500px;
-}
 
 
 .footer1 {
