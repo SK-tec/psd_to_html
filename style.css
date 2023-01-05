@@ -38,6 +38,12 @@ text-align: center;
     border-right-color: gainsboro;
    }
 
+
+   .btn:hover {
+    opacity: .6;
+
+   }
+
 .grid-item4,.grid-item5,.grid-item6 {
     padding-top: 10%;
     border-top: solid 1px;
@@ -106,3 +112,4 @@ width:150px;
 .horizontalline{
   padding-top: 20px;
 }
+
