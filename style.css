@@ -1,6 +1,61 @@
-* {
-  margin: 0;
+
+*{
+    margin: 0;
 }
+.ourStory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+  }
+#content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+    width: 50%;
+    margin-top: 24px;
+  }
+.storyP {
+    line-height: 1.5;
+  }
+#storyImg {
+    margin-right: 40px;
+  }
+.storyBtn {
+    width: 100px;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(67, 208, 185);
+    padding: 8px 8px;
+    background-color: white;
+    border: 1px solid rgb(67, 208, 185);
+  }
+#watch-section {
+    background-image: url("images/bgk-middle.png");
+    height: 550px;
+    position: relative;
+}
+
+#watch-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 640px;
+    top: 220px;
+    
+}
+
+#play {
+    margin-bottom: 16px;
+}
+#storyh3 {
+    color: white;
+}
+
+
 /* Expertise section starts*/
 #expertise-section {
   display: flex;
@@ -112,4 +167,5 @@ width:150px;
 .horizontalline{
   padding-top: 20px;
 }
+
 
