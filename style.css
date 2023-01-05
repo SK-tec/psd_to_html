@@ -1,3 +1,108 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
+}
+/* Expertise section starts*/
+#expertise-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; 
+}
+#expertise-section hr {
+  width: 4%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;  
+}
+.grid-container p{
+text-align: center;
+}
+.headexpertise{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+
+}
+.grid-item1,.grid-item2,.grid-item4,.grid-item5{
+    border-right: solid 1px;
+    border-right-color: gainsboro;
+   }
+
+.grid-item4,.grid-item5,.grid-item6 {
+    padding-top: 10%;
+    border-top: solid 1px;
+    border-top-color: gainsboro;
+    
+}
+/* Expertise section ends*/
+
+/* Team section starts*/
+#team-section{
+  margin-top: 8%; 
+  background: url(./images/bgk-header.png);
+  align-items: center;    
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;  
+}
+.headteam{
+  color:whitesmoke;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.boxgroup{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.box1{
+background-color: white;
+height: 150px;
+width:150px;
+
+}
+.innerbox{
+  width:148px;
+  height: 60px;
+ color: whitesmoke;
+ border: 1px solid;
+ border-color: gray;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column; 
+}
+.bootomteam{
+  color: whitesmoke;  
+  padding-top: 5%;
+  display: flex;   
+  text-align: center;
+  flex-direction: column;   
+}
+#hiring{
+  width: 150px;
+  height: 40px;
+  background: none;
+  color: aquamarine;
+  border: 1px solid;
+  border-color: aquamarine;
+  margin-top: 30px;
+}
+.horizontalline{
+  padding-top: 20px;
 }
