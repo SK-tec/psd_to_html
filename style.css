@@ -249,3 +249,71 @@ width:150px;
 
 
 
+nav{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+font-size: 18px;
+margin-left: 60px;
+margin-top: 30px;
+font-style:normal;
+}
+
+h3{
+  padding-right: 300px;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.contact-page {
+display: flex;
+padding-top: 50px;
+column-gap: 40px;
+row-gap: 20px;
+justify-content: center;
+}
+
+.container{
+margin-top: 5px;
+margin-bottom: 10px;
+flex-direction:row;
+row-gap: 5px;
+width: 10px;
+}
+
+.logos{
+font-style: oblique;
+font-size: 18px;
+font-weight: lighter;
+margin-left: 50px;
+}
+
+form button {
+width: 30%;
+border:#252525;
+color: aqua;
+transition: 0.2s;
+}
+
+form button:hover {
+cursor: pointer;
+color: aqua;
+
+}
+
+form button:active {
+box-shadow: insert 3px 2px 15px -5px #252525;
+cursor: pointer;
+}
+
+.sponsor-logos {
+  /* Style the logo */
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  
+  /* Position the logo */
+  position: right;
+  margin-left: 500px;
+  
+}
